@@ -1,4 +1,4 @@
-with open('12prove/life-expectancy.csv') as life_variable:
+with open('life-expectancy.csv') as life_variable:
     interest = input('Enter the year of interest: ')
     next(life_variable)
     min_expec = 999
